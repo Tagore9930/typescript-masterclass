@@ -1,1 +1,8 @@
-console.log("Hello, World!");
+// console.log("Hello, World!");
+// @ts-ignore
+function addNumbers(a: number, b: number): number {
+    return a + b;
+}
+
+console.log(addNumbers(2, 3));
+// console.log(addNumbers("text", 3));
